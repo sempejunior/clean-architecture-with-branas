@@ -1,0 +1,25 @@
+{
+  "name": "project-with-branas",
+  "version": "1.0.0",
+  "description": "Project created to study clean architecture",
+  "main": "index.js",
+  "scripts": {
+    "tsc:init": "tsc --init",
+    "build": "tsc",
+"test": "tsc && jest dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sempejunior/clean-architecture-with-branas.git"
+  },
+  "author": "Carlos Sempé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sempejunior/clean-architecture-with-branas/issues"
+  },
+  "homepage": "https://github.com/sempejunior/clean-architecture-with-branas#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  }
+}
